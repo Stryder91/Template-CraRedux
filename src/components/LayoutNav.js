@@ -20,6 +20,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import MailIcon from '@material-ui/icons/Mail';
 
 import Stepper from './Stepper';
+import SimpleTable from './SimpleTable';
+import Datatable from './Datatable';
 
 const drawerWidth = 240;
 
@@ -149,6 +151,7 @@ function ResponsiveDrawer(props) {
       <main className={classes.content}>
         <div className={classes.toolbar} />
 
+        <SimpleTable />
         <Stepper />
 
 
